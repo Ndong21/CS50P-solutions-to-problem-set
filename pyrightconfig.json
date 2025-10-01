@@ -1,0 +1,6 @@
+    {
+        "reportMissingTypeStubs": true,
+        "reportAssignmentType": true,
+        "stubPath": "stubs",
+        "typeCheckingMode": "strict"
+    }
