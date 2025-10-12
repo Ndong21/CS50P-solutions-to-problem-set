@@ -3,11 +3,11 @@ def main() -> None:
 
 
 def greet() -> None:
-    greeting: str = input("Enter your greetings here: ").lower()
+    greeting: str = input("Enter your greetings here: ").lower().strip()
 
     if greeting.startswith("hello"):
         print("0$")
-    elif greeting.startswith("h") and greeting != "hello":
+    elif greeting.startswith("h"):
         print("$20")
     else:
         print("$100")
